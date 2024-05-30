@@ -12,7 +12,7 @@ damage = 3
 
 while health != 0:
     trolls += 1
-    health == damage
+    health -= damage
 
     print("Your hero swings and defeats an evil troll." \
           "but takes", damage, "damage points.\n")
